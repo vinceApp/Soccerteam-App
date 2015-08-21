@@ -1,3 +1,3 @@
 # Soccerteam-App
 
-Install
+Install the app
