@@ -12,10 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('startbootstrap.homepage');
+});
+
+Route::get('home', function(){
+    return view('startbootstrap.home');
 });
 
 Route::controller('users', 'UsersController');
 Route::controller('contact', 'ContactController');
 
 Route::controller('photo', 'PhotoController');
+
+Route::controller('player', 'PlayerController');
