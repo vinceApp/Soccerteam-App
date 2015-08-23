@@ -11,3 +11,18 @@ and open the template in the editor.
 .icon_homepage{
     color : #337ab7;
 }
+.container_dashboard{
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-left: 30px;
+}
+
+#title_dashboard{
+    margin-bottom: 60px;
+    color: #337ab7;
+}
+
+.p_dashboard{
+    font-size: 20px;
+    margin-bottom: 16px;
+}

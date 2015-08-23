@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row" id="row_title">
             <p>
-                <a href="home">SOCCERTEAM APP</a>
+                <a href="dashboard">SOCCERTEAM APP</a>
             </p>
          </div>
     </div>
@@ -60,7 +60,7 @@
     </div>
     
     <div class="container" id="container_button">
-        <a href="home"><button type="button" class="btn btn-lg btn-primary" id="button_letsgoal">Let's goal<i class="fa fa-futbol-o icon_button"></i></button></a>
+        <a href="dashboard"><button type="button" class="btn btn-lg btn-primary" id="button_letsgoal">Let's goal<i class="fa fa-futbol-o icon_button"></i></button></a>
     </div>
     
     

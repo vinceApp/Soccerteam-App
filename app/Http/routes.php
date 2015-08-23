@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('startbootstrap.homepage');
 });
 
-Route::get('home', function(){
-    return view('startbootstrap.home');
+Route::get('dashboard', function(){
+    return view('startbootstrap.dashboard');
 });
 
 Route::controller('users', 'UsersController');
@@ -25,3 +25,7 @@ Route::controller('contact', 'ContactController');
 Route::controller('photo', 'PhotoController');
 
 Route::controller('player', 'PlayerController');
+
+Route::controller('team', 'TeamController');
+
+Route::controller('calendar', 'CalendarController');
