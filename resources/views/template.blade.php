@@ -48,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home">SoccerTeam</a>
+                <a class="navbar-brand" href="/GitHub/Soccerteam-App/public/home">SoccerTeam</a>
             </div>
             <!-- Top Menu Items -->
             <!--  Partie logger
@@ -76,7 +76,7 @@
                         <a href="/GitHub/Soccerteam-App/public/calendar/form"><i class="fa fa-calendar-plus-o icon_homepage"></i> Save your matches</a>
                     </li>
                     <li>
-                        <a href="/GitHub/Soccerteam-App/public/season"><i class="fa fa-calendar icon_homepage"></i></i> Your season</a>
+                        <a href="/GitHub/Soccerteam-App/public/season/form"><i class="fa fa-calendar icon_homepage"></i></i> Your season</a>
                     </li>
                     
                 </ul>

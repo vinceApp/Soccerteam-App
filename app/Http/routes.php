@@ -32,4 +32,6 @@ Route::controller('calendar', 'CalendarController');
 
 Route::controller('match','MatchController');
 
-Route::Controlleur('season','SeasonControlleur');
+Route::get('season/show/{id_match}','SeasonController@show');
+
+route:: controller('season','SeasonController' );

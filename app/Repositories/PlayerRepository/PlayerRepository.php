@@ -99,7 +99,9 @@ class PlayerRepository implements PlayerRepositoryInterface
                     $mark=10;
                 }
                 
-                $player->mark = $mark;
+                $player->mark = round($mark,1);
+                $player->ratio_pass=$ratio_pass*100;
+                $player->ratio_shots=$ratio_shots*100;
 		$player->save();
 		
 	}
