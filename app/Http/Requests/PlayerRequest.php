@@ -33,6 +33,7 @@ class PlayerRequest extends Request
                 'id_match' => 'required|numeric',
                 'shots' => 'required|numeric',
                 'goals' => 'required|numeric',
-                'assists' => 'required|numeric'];
+                'pass_try' => 'required|numeric',
+                'pass_succeeded' => 'required|numeric'];
     }
 }

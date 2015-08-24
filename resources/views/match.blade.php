@@ -11,7 +11,7 @@
                     <div class="panel-heading">Enter your match n°{{$number}}</div>
 			<div class="panel-body"> 
                                    
-                                    <label for="team_1">Team 1 :  </label>    
+                                    <label for="team_1">Team 1 (your) :  </label>    
                                     <input name="team_1" type="text" class="form-control">
                                     <label for="score_team_1">Goals </label>    
                                     <input name="score_team_1" type="text" class="form-control">

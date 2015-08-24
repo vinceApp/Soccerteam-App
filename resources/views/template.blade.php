@@ -76,10 +76,7 @@
                         <a href="/GitHub/Soccerteam-App/public/calendar/form"><i class="fa fa-calendar-plus-o icon_homepage"></i> Save your matches</a>
                     </li>
                     <li>
-                        <a href="tables.html"><i class="fa fa-user-plus icon_homepage"></i> Add player's goals/assists</a>
-                    </li>
-                    <li>
-                        <a href="tables.html"><i class="fa fa-calendar icon_homepage"></i></i> Your season</a>
+                        <a href="/GitHub/Soccerteam-App/public/season"><i class="fa fa-calendar icon_homepage"></i></i> Your season</a>
                     </li>
                     
                 </ul>

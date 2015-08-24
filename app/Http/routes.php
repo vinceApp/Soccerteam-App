@@ -31,3 +31,5 @@ Route::controller('team', 'TeamController');
 Route::controller('calendar', 'CalendarController');
 
 Route::controller('match','MatchController');
+
+Route::Controlleur('season','SeasonControlleur');

@@ -22,7 +22,7 @@ class MatchController extends Controller
                 $id_team = DB::table('team')->where('name',$name)->orderBy('id_team', 'desc')->pluck('id_team');
                 $id_calendar = $request->input('id_calendar');
                 $id_match = DB::table('match_detail')->where('team_1',$name)->where('id_calendar',$id_calendar)->orderBy('id_match', 'desc')->pluck('id_match');
-                
+                //dd($id_team);
                 return view('player')->with('id_team',$id_team)->with('number',1)->with('id_match', $id_match);
 		
 	}

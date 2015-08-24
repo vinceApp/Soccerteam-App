@@ -29,8 +29,10 @@
                                     <input name="shots" type="text" class="form-control">
                                     <label for="goals">Enter his number of goals :  </label>    
                                     <input name="goals" type="text" class="form-control">
-                                    <label for="assists">Enter his number of assits :  </label>    
-                                    <input name="assists" type="text" class="form-control">
+                                    <label for="pass_try">Enter his number of pass try :  </label>    
+                                    <input name="pass_try" type="text" class="form-control">
+                                    <label for="pass_succeeded">Enter his number of pass succeeded :  </label>    
+                                    <input name="pass_succeeded" type="text" class="form-control">
                         </div>
                 </div>
             </div>
