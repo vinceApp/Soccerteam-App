@@ -14,7 +14,7 @@ class PlayerRepository implements PlayerRepositoryInterface
 		$this->player = $player;
 	}
 
-	public function save($data1, $data2, $data3, $data4, $data5)
+	public function save($data1, $data2, $data3, $data4, $data5, $data6, $data7, $data8)
 	{
             
             
@@ -24,6 +24,11 @@ class PlayerRepository implements PlayerRepositoryInterface
                 $player->position = $data3;
                 $player->id_team = $data4;
                 $player->id_match = $data5;
+                $player->shots = $data6;
+                $player->goals = $data7;
+                $player->assists = $data8;
+                $rank = 4;
+                $player->rank = $rank;
 		$player->save();
 		
 	}

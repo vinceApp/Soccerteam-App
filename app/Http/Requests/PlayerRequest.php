@@ -30,7 +30,9 @@ class PlayerRequest extends Request
                 'name' => 'required|alpha',
                 'position =>required',
                 'id_team' => 'required|numeric',
-                'id_match' => 'required|numeric'
-                ];
+                'id_match' => 'required|numeric',
+                'shots' => 'required|numeric',
+                'goals' => 'required|numeric',
+                'assists' => 'required|numeric'];
     }
 }

@@ -25,7 +25,7 @@ class PlayerController extends Controller
                 $nbmatches = DB::table('calendar')->where('team',$name)->orderBy('id_calendar', 'desc')->pluck('nbmatches');
                 $id_calendar = DB::table('calendar')->where('team',$name)->where('nbmatches',$nbmatches)->orderBy('id_calendar', 'desc')->pluck('id_calendar');
                 
-		$playerRepository->save($request->input('firstname'), $request->input('name'), $request->input('position'), $request->input('id_team'), $request->input('id_match') );
+		$playerRepository->save($request->input('firstname'), $request->input('name'), $request->input('position'), $request->input('id_team'), $request->input('id_match'), $request->input('shots'), $request->input('goals'), $request->input('assists') );
                
                 $id_match=$request->input('id_match');
 		$nbplayers_save = count(DB::table('player')->where('id_team',$id_team)->where('id_match', $id_match)->lists('id_player'));

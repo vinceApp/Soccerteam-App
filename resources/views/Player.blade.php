@@ -24,8 +24,13 @@
                                         <option value="Goalkeeper">Goalkeeper</option>
                                     </select>
                                     <input name="id_team" type="hidden" class="form-control" value="{{$id_team}}">
-                                    <input name="id_match" type="hidden" class="form-control" value="{{$id_match}}">
-                                    
+                                     <input name="id_match" type="hidden" class="form-control" value="{{$id_match}}">
+                                    <label for="shots">Enter his number of shots :  </label>    
+                                    <input name="shots" type="text" class="form-control">
+                                    <label for="goals">Enter his number of goals :  </label>    
+                                    <input name="goals" type="text" class="form-control">
+                                    <label for="assists">Enter his number of assits :  </label>    
+                                    <input name="assists" type="text" class="form-control">
                         </div>
                 </div>
             </div>
