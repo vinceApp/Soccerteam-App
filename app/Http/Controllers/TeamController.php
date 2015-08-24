@@ -19,9 +19,10 @@ class TeamController extends Controller
 		$teamRepository->save($request->input('name'), $request->input('nbplayers'));
                 $name=$request->input('name');
                 $nbplayers=$request->input('nbplayers');
-                $id_team = DB::table('team')->where('name', $name)->pluck('id_team');
-                return view('player')->with('id_team', $id_team)->with('nbplayers', $nbplayers);
-		
+                $id_team = DB::table('team')->where('name', $name)->where('nbplayers',$nbplayers)->pluck('id_team');
+                
+                //return view('player')->with('id_team', $id_team)->with('number', 1);
+		return view('startbootstrap.dashboard');
 	}
         
 

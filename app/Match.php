@@ -4,11 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Player extends Model
+class Match extends Model
 {
-    protected $table = 'player';
+    protected $table = 'match_detail';
     
     public $timestamps = false;
-    
-
 }

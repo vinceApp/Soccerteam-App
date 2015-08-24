@@ -29,3 +29,5 @@ Route::controller('player', 'PlayerController');
 Route::controller('team', 'TeamController');
 
 Route::controller('calendar', 'CalendarController');
+
+Route::controller('match','MatchController');

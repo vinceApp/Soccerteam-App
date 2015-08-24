@@ -23,10 +23,14 @@ class PlayerRequest extends Request
      */
     public function rules()
     {
+        
         return [
+                
                 'firstname' => 'required|alpha',
                 'name' => 'required|alpha',
                 'position =>required',
-                'id_team' => 'required|numeric'];
+                'id_team' => 'required|numeric',
+                'id_match' => 'required|numeric'
+                ];
     }
 }

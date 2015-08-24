@@ -1,15 +1,15 @@
 @extends('template')
 
 @section('contenu')
-<h1>Votre id_team = {{$id_team}}</h1>
+
             <div class="row">
 		
 			
                                 {!! Form::open(['url' => 'player/form']) !!}
-        @for ($i = 0; $i < $nbplayers; $i++)
+       
             <div class="col-sm-3">
                 <div class="panel panel-info">
-                    <div class="panel-heading">Enter your player</div>
+                    <div class="panel-heading">Enter your player n°{{$number}}</div>
 			<div class="panel-body"> 
                                    
                                     <label for="firstname">Enter his firstname :  </label>    
@@ -23,14 +23,15 @@
                                         <option value="Defender">Defender</option>
                                         <option value="Goalkeeper">Goalkeeper</option>
                                     </select>
-                                    <label for="id_team">Enter your id_team :  </label>    
-                                    <input name="id_team" type="text" class="form-control">
+                                    <input name="id_team" type="hidden" class="form-control" value="{{$id_team}}">
+                                    <input name="id_match" type="hidden" class="form-control" value="{{$id_match}}">
+                                    
                         </div>
                 </div>
             </div>
                                     
             
-       @endfor
+       
        
                                     
 		

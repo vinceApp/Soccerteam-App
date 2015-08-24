@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Repositories\CalendarRepository\CalendarRepository;
 use App\Http\Requests\CalendarRequest;
+use DB;
 
 class CalendarController extends Controller
 {
@@ -15,9 +16,13 @@ class CalendarController extends Controller
 
 	public function postForm(CalendarRequest $request,CalendarRepository $calendarRepository )
 	{
-		$calendarRepository->save($request->input('team_1'), $request->input('score_team_1'), $request->input('team_2'), $request->input('score_team_2'),$request->input('date'));
+		$calendarRepository->save($request->input('nbmatches'), $request->input('team'));
+                
+                $team=$request->input('team');
+                $nbmatches=$request->input('nbmatches');
+                $id_calendar = DB::table('calendar')->where('team', $team)->where('nbmatches',$nbmatches)->orderBy('id_calendar', 'desc')->pluck('id_calendar');
 
-                return view('calendar_ok');
+                return view('match')->with('id_calendar',$id_calendar)->with('number', 1);
 		
 	}
         

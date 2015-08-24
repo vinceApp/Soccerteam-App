@@ -6,7 +6,7 @@
 		<div class="panel panel-info">
 			<div class="panel-heading"></div>
 			<div class="panel-body"> 
-				Thank you {{ $playerFirstname }}, your firstname was registrated.
+				We have saved yours {{$nbsave}} players. 
 			</div>
 		</div>
 	</div>

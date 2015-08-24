@@ -3,7 +3,6 @@
 namespace App\Repositories\PlayerRepository;
 
 use App\Player;
-use DB;
 
 class PlayerRepository implements PlayerRepositoryInterface
 {
@@ -15,7 +14,7 @@ class PlayerRepository implements PlayerRepositoryInterface
 		$this->player = $player;
 	}
 
-	public function save($data1, $data2, $data3, $data4)
+	public function save($data1, $data2, $data3, $data4, $data5)
 	{
             
             
@@ -24,6 +23,7 @@ class PlayerRepository implements PlayerRepositoryInterface
                 $player->name = $data2;
                 $player->position = $data3;
                 $player->id_team = $data4;
+                $player->id_match = $data5;
 		$player->save();
 		
 	}

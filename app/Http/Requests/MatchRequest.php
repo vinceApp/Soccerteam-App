@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
 
-class CalendarRequest extends Request
+class MatchRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -23,7 +23,11 @@ class CalendarRequest extends Request
      */
     public function rules()
     {
-         return ['nbmatches' => 'required|numeric',
-                 'team' => 'required|alpha'];
+         return ['team_1' => 'required|alpha',
+                 'score_team_1' => 'required|numeric',
+                 'team_2' => 'required|alpha',
+                 'score_team_2' => 'required|numeric',
+                 'date' => 'required|date_format:Y/m/d',
+                 'id_calendar' => 'required|numeric'];
     }
 }
