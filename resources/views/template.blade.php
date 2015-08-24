@@ -48,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/GitHub/Soccerteam-App/public/home">SoccerTeam</a>
+                <a class="navbar-brand" href="/GitHub/Soccerteam-App/public/dashboard">SoccerTeam</a>
             </div>
             <!-- Top Menu Items -->
             <!--  Partie logger
