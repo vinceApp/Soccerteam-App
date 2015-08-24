@@ -15,10 +15,6 @@ DB_USERNAME=root
 DB_PASSWORD=
 ------------------------------------------------------------------------
 
-Open the project in you IDE.
-Go in Ressources/view/template.blade.php
-Change the path of every href by your path. For example mine is yout main folder is Soccerteam-App replace /GitHub/Soccerteam-App/public/ by /Soccerteam-App/public/ 
-in all href of the file template.blade.php
 
 Now you can launch the application with http://localhost/yourpath/public/
 

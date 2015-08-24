@@ -12,17 +12,17 @@
     <title>SoccerTeam App</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/GitHub/Soccerteam-App/public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{!! URL::to('/'); !!}/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/GitHub/Soccerteam-App/public/css/sb-admin.css" rel="stylesheet">
-    <link href="/GitHub/Soccerteam-App/public/css/dashboard.css" rel="stylesheet">
+    <link href="{!! URL::to('/'); !!}/css/sb-admin.css" rel="stylesheet">
+    <link href="{!! URL::to('/'); !!}/css/dashboard.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="/GitHub/Soccerteam-App/public/css/plugins/morris.css" rel="stylesheet">
+    <link href="{!! URL::to('/'); !!}/css/plugins/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/GitHub/Soccerteam-App/public/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{!! URL::to('/'); !!}/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -48,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/GitHub/Soccerteam-App/public/dashboard">SoccerTeam</a>
+                <a class="navbar-brand" href="{!! URL::to('/'); !!}/dashboard">SoccerTeam</a>
             </div>
             <!-- Top Menu Items -->
             <!--  Partie logger
@@ -70,13 +70,13 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="/GitHub/Soccerteam-App/public/team/form"><i class="fa fa-users icon_homepage"></i> Register your team</a>
+                        <a href="{!! URL::to('/'); !!}/team/form"><i class="fa fa-users icon_homepage"></i> Register your team</a>
                     </li>
                     <li>
-                        <a href="/GitHub/Soccerteam-App/public/calendar/form"><i class="fa fa-calendar-plus-o icon_homepage"></i> Save your matches</a>
+                        <a href="{!! URL::to('/'); !!}/calendar/form"><i class="fa fa-calendar-plus-o icon_homepage"></i> Save your matches</a>
                     </li>
                     <li>
-                        <a href="/GitHub/Soccerteam-App/public/season/form"><i class="fa fa-calendar icon_homepage"></i></i> Your season</a>
+                        <a href="{!! URL::to('/'); !!}/season/form"><i class="fa fa-calendar icon_homepage"></i></i> Your season</a>
                     </li>
                     
                 </ul>
@@ -101,15 +101,15 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="/GitHub/Soccerteam-App/public/js/jquery.js"></script>
+    <script src="{!! URL::to('/'); !!}/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/GitHub/Soccerteam-App/public/js/bootstrap.min.js"></script>
+    <script src="{!! URL::to('/'); !!}/js/bootstrap.min.js"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="/GitHub/Soccerteam-App/public/js/plugins/morris/raphael.min.js"></script>
-    <script src="/GitHub/Soccerteam-App/public/js/plugins/morris/morris.min.js"></script>
-    <script src="/GitHub/Soccerteam-App/public/js/plugins/morris/morris-data.js"></script>
+    <script src="{!! URL::to('/'); !!}/js/plugins/morris/raphael.min.js"></script>
+    <script src="{!! URL::to('/'); !!}/js/plugins/morris/morris.min.js"></script>
+    <script src="{!! URL::to('/'); !!}/js/plugins/morris/morris-data.js"></script>
 
 </body>
 

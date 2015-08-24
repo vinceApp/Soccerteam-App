@@ -19,11 +19,6 @@ Route::get('dashboard', function(){
     return view('startbootstrap.dashboard');
 });
 
-Route::controller('users', 'UsersController');
-Route::controller('contact', 'ContactController');
-
-Route::controller('photo', 'PhotoController');
-
 Route::controller('player', 'PlayerController');
 
 Route::controller('team', 'TeamController');
