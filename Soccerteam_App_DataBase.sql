@@ -46,8 +46,11 @@ CREATE TABLE IF NOT EXISTS `player` (
   `position` varchar(50) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0',
   `shots` int(11) DEFAULT NULL,
   `goals` int(11) DEFAULT NULL,
-  `assists` int(11) DEFAULT NULL,
-  `rank` int(11) DEFAULT NULL,
+  `pass_try` int(11) DEFAULT NULL,
+  `pass_succeeded` int(11) DEFAULT NULL,
+  `mark` float DEFAULT NULL,
+  `ratio_pass` int(11) DEFAULT NULL,
+  `ratio_shots` int(11) DEFAULT NULL,
   PRIMARY KEY (`id_player`),
   KEY `id_team` (`id_team`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
