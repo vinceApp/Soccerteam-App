@@ -42,7 +42,7 @@ class PlayerController extends Controller
                 else {
                     if($nbmatches_save<$nbmatches)
                     {
-                        return view('match')->with('id_calendar',$id_calendar)->with('number', 1);
+                        return view('match')->with('id_calendar',$id_calendar)->with('number', $nbmatches_save+1);
                     }
                     else
                     {

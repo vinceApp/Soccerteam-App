@@ -22,13 +22,13 @@
                                         {{$player->ratio_shots}}% shots on goal
                                     </div>
                                     <div class="col-sm-1">
-                                        {{$player->goals}} buts
+                                        {{$player->goals}} goals
                                     </div>
                                     <div class="col-sm-2">
                                         {{$player->ratio_pass}}% pass succeeded
                                     </div>
                                     <div class="col-sm-1">
-                                        {{$player->mark}}/10
+                                        {{round($player->mark,1)}}/10
                                     </div>
                                 </div> 
                                 <br>

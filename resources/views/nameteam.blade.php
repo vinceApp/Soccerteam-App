@@ -11,7 +11,7 @@
                                 {!! Form::open(['url' => 'season/form']) !!}
 
                                 <div class="form-group {!! $errors->has('name') ? 'has-error' : '' !!}">
-                                        <label for="name">Enter your team's name :  </label>    
+                                        <label for="name">Enter your team's name* :  </label>    
                                         <input name="name" type="text" id="team" class="form-control">
                                         {!! $errors->first('name', '<small class="help-block">:message</small>') !!}
                                 </div>

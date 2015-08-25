@@ -11,12 +11,12 @@
 			<div class="panel-body"> 
                                    
                             <div class="form-group {!! $errors->has('nbmatches') ? 'has-error' : '' !!}">
-                                    <label for="nbmatches">Number of matches :  </label>    
+                                    <label for="nbmatches">Number of matches* :  </label>    
                                     <input name="nbmatches" type="text" class="form-control">
                                     {!! $errors->first('nbmatches', '<small class="help-block">:message</small>') !!}
                             </div>
                             <div class="form-group {!! $errors->has('team') ? 'has-error' : '' !!}">
-                                    <label for="team">Your team's name:  </label>    
+                                    <label for="team">Your team's name* :  </label>    
                                     <input name="team" type="text" class="form-control">
                                     {!! $errors->first('team', '<small class="help-block">:message</small>') !!}
                             </div>
